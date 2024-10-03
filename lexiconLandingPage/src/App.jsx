@@ -32,7 +32,7 @@ function App() {
         </h2>
         <div
           ref={scrollContainerRef}
-          className="flex overflow-x-auto scrollbar-hide mb-2"
+          className="flex overflow-x-auto no-scrollbar mb-2"
           style={{ scrollBehavior: "smooth" }}
         >
           <Card
